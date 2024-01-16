@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@import url("layout/main-header.css");
+@import url("layout/main-content.css");
+@import url("components/main-pkm-indentifier.css");
+@import url("components/main-team-card.css");
+@import url("components/sprite-boxes.css");
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 330px;
+}
+
+.container {
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.288), rgba(0, 0, 0, 0.6)), url("../assets/images/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

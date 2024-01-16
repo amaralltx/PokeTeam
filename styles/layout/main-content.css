@@ -1,0 +1,33 @@
+.main-content {
+    padding: 0em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.main-right-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.main-left {
+    min-width: 20%;
+
+}
+
+@media (max-width: 1400px) {
+    .main-left {
+        width: 0px;
+        display: none;
+    }
+}
