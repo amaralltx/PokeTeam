@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    padding: 1em 0;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.github-logo{
+    margin-left: 2rem;
+    width: 36px;
+}
+
+.account-btns {
+    display: flex;
+}
+
+.account-btns:nth-child(2){
+    margin-right: 2rem;
+}
+
+.account-btns form{
+    transition: opacity cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
+
+.account-btns form input {
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: opacity cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
+
+.signin-btn {
+    border: none;
+    margin-right: 16px;
+}
+
+.signup-btn {
+    border: 2px solid #ffffff;
+}
+
+.account-btns input:hover, .github-logo:hover{
+    cursor: pointer;
+    opacity: 0.85;
+}
